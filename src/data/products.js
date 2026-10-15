@@ -40,7 +40,7 @@ export const products = [
     category: 'top-picks',
     categoryName: 'Top Picks',
     sku: 'HF-WAT-001',
-    price: 'Rs 60',
+    price: '$60',
     priceNumeric: 60,
     packSize: 'Standard Retail Box (Protective Case)',
     availability: 'In Stock (Ready to Ship)',
@@ -60,9 +60,9 @@ export const products = [
       'Export master carton packaging with barcode labels'
     ],
     tiers: [
-      { range: '10 - 49 Units', price: 'Rs 60', discount: 'Base MOQ' },
-      { range: '50 - 199 Units', price: 'Rs 52', discount: '13% OFF' },
-      { range: '200+ Units', price: 'Rs 45', discount: '25% Volume Tier' }
+      { range: '10 - 49 Units', price: '$60', discount: 'Base MOQ' },
+      { range: '50 - 199 Units', price: '$52', discount: '13% OFF' },
+      { range: '200+ Units', price: '$45', discount: '25% Volume Tier' }
     ],
     specs: [
       { label: 'Case Diameter', value: '40 mm' },
@@ -78,7 +78,7 @@ export const products = [
     category: 'daily-essentials',
     categoryName: 'Daily Essentials',
     sku: 'HF-BOT-002',
-    price: 'Rs 25',
+    price: '$25',
     priceNumeric: 25,
     packSize: 'Master Carton (24 Units)',
     availability: 'In Stock (Ready to Ship)',
@@ -98,9 +98,9 @@ export const products = [
       'Leak-proof seal with ergonomic carry loop'
     ],
     tiers: [
-      { range: '24 - 96 Units', price: 'Rs 25', discount: 'Base Wholesale' },
-      { range: '97 - 240 Units', price: 'Rs 21', discount: '16% OFF' },
-      { range: '240+ Units', price: 'Rs 18', discount: '28% Pallet Rate' }
+      { range: '24 - 96 Units', price: '$25', discount: 'Base Wholesale' },
+      { range: '97 - 240 Units', price: '$21', discount: '16% OFF' },
+      { range: '240+ Units', price: '$18', discount: '28% Pallet Rate' }
     ],
     specs: [
       { label: 'Capacity', value: '750 ml (25 oz)' },
@@ -115,7 +115,7 @@ export const products = [
     category: 'home-living',
     categoryName: 'Home Living',
     sku: 'HF-LMP-003',
-    price: 'Rs 35',
+    price: '$35',
     priceNumeric: 35,
     packSize: 'Protective Foam Carton (Individual)',
     availability: 'In Stock (Ready to Ship)',
@@ -135,9 +135,9 @@ export const products = [
       'Drop-tested protective packaging for safe transit'
     ],
     tiers: [
-      { range: '12 - 48 Units', price: 'Rs 35', discount: 'Base MOQ' },
-      { range: '49 - 144 Units', price: 'Rs 30', discount: '14% OFF' },
-      { range: '145+ Units', price: 'Rs 26', discount: '25% Contractor Tier' }
+      { range: '12 - 48 Units', price: '$35', discount: 'Base MOQ' },
+      { range: '49 - 144 Units', price: '$30', discount: '14% OFF' },
+      { range: '145+ Units', price: '$26', discount: '25% Contractor Tier' }
     ],
     specs: [
       { label: 'Height', value: '38 cm' },
@@ -152,7 +152,7 @@ export const products = [
     category: 'fashion-finds',
     categoryName: 'Fashion Finds',
     sku: 'HF-BPK-004',
-    price: 'Rs 45',
+    price: '$45',
     priceNumeric: 45,
     packSize: 'Polybagged Master Carton (15 Units)',
     availability: 'In Stock (Ready to Ship)',
@@ -172,9 +172,9 @@ export const products = [
       'Multiple utility organizer pockets for pens, cables, and passports'
     ],
     tiers: [
-      { range: '15 - 45 Units', price: 'Rs 45', discount: 'Base Wholesale' },
-      { range: '46 - 150 Units', price: 'Rs 38', discount: '15% OFF' },
-      { range: '151+ Units', price: 'Rs 33', discount: '26% Bulk Tier' }
+      { range: '15 - 45 Units', price: '$45', discount: 'Base Wholesale' },
+      { range: '46 - 150 Units', price: '$38', discount: '15% OFF' },
+      { range: '151+ Units', price: '$33', discount: '26% Bulk Tier' }
     ],
     specs: [
       { label: 'Dimensions', value: '44 x 31 x 16 cm' },
