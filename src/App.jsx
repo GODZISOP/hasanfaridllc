@@ -712,7 +712,7 @@ export default function App() {
               </div>
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.25fr', gap: '32px', marginTop: '40px' }} className="contact-grid-responsive">
-                <div style={{ background: '#241b14', color: '#fff', padding: '36px', borderRadius: '20px', border: '1px solid rgba(140, 95, 36, 0.3)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div style={{ background: 'linear-gradient(135deg, #0c2338 0%, #173f67 100%)', color: '#fff', padding: '36px', borderRadius: '20px', border: '1px solid rgba(245, 158, 11, 0.35)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 10px 30px rgba(12, 35, 56, 0.15)' }}>
                   <div>
                     <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.4rem', marginBottom: '20px', color: '#f5efe6' }}>Direct Coordinates</h3>
                     
@@ -767,8 +767,8 @@ export default function App() {
                   </div>
                 </div>
 
-                <div style={{ background: '#fff', padding: '36px', borderRadius: '20px', border: '1px solid #eae2d6', boxShadow: '0 4px 16px rgba(0,0,0,0.03)' }}>
-                  <h3 style={{ fontSize: '1.25rem', marginBottom: '18px', color: '#241b14', fontWeight: '700' }}>Send Us a Message</h3>
+                <div style={{ background: '#fff', padding: '36px', borderRadius: '20px', border: '1px solid #e2e8f0', boxShadow: '0 4px 16px rgba(12, 35, 56, 0.04)' }}>
+                  <h3 style={{ fontSize: '1.25rem', marginBottom: '18px', color: '#0c2338', fontWeight: '700' }}>Send Us a Message</h3>
                   <form onSubmit={handleFormSubmit} className="modal-form">
                     <div className="form-group">
                       <label className="form-label">Full Name *</label>
@@ -789,7 +789,7 @@ export default function App() {
                     <button 
                       type="submit" 
                       className="btn-submit-modal"
-                      style={{ background: 'linear-gradient(135deg, #a67635 0%, #8c5f24 100%)', color: '#fff', fontWeight: '700' }}
+                      style={{ background: 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)', color: '#fff', fontWeight: '700', boxShadow: '0 4px 14px rgba(245, 158, 11, 0.4)' }}
                     >
                       Send Message
                     </button>
@@ -1487,7 +1487,7 @@ export default function App() {
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '32px', marginTop: '40px' }}>
-              <div style={{ background: '#241b14', color: '#fff', padding: '36px', borderRadius: '20px', border: '1px solid rgba(140, 95, 36, 0.3)' }}>
+              <div style={{ background: 'linear-gradient(135deg, #0c2338 0%, #173f67 100%)', color: '#fff', padding: '36px', borderRadius: '20px', border: '1px solid rgba(245, 158, 11, 0.35)', boxShadow: '0 10px 30px rgba(12, 35, 56, 0.15)' }}>
                 <h3 style={{ fontFamily: 'var(--font-serif)', fontSize: '1.4rem', marginBottom: '16px', color: '#f5efe6' }}>Direct Coordinates</h3>
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', fontSize: '0.95rem' }}>
